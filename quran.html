@@ -10,7 +10,7 @@
 
 <header>
     <h1>القرآن الكريم</h1>
-    
+    <button id="toggleTheme">الوضع الليلي</button>
 </header>
 
 <nav>
@@ -22,10 +22,12 @@
 
 <main class="container">
     <section>
-        <h2>تصفح السور</h2>
-        <select id="surahSelect"></select>
-        <p id="ayahText">اختر السورة لتظهر الآية</p>
-        <button id="playAudio">تشغيل الصوت</button>
+        <label for="surahSelect">اختر السورة:</label>
+        <select id="surahSelect">
+            <option value="">-- اختر السورة --</option>
+        </select>
+
+        <div id="ayahText"></div>
     </section>
 </main>
 
@@ -35,3 +37,5 @@
 
 <script src="script.js"></script>
 <script src="quran.js"></script>
+</body>
+</html>
