@@ -15,9 +15,11 @@ document.getElementById('resetTasbih').addEventListener('click', () => {
 
 const azkarList = [
     "سبحان الله",
-    "الحمد لله",
-    "الله أكبر",
-    "لا إله إلا الله"
+   "والحمد لله",
+    "ولا اله الاالله",
+     "والله اكبر",
+     "ولا حول ولا قوه الا بالله العلي العظيم ",
+    "استغفر الله",
 ];
 let currentIndex = 0;
 function showZikr() {
